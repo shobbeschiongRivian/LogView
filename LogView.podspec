@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
     s.homepage     = 'https://github.com/alexejn/LogView'
     s.license      = { :type => 'MIT', :file => 'LICENSE' }
     s.author       = { 'Alexej' => '' }  # replace with the actual author's email if available
-    s.source       = { :git => 'https://github.com/alexejn/LogView.git', :tag => "#{s.version}" }
+    s.source       = { :git => 'https://github.com/alexejn/LogView.git' }
 
     s.swift_version = '5.10'
     s.ios.deployment_target = '16.0'
