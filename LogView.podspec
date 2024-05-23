@@ -10,5 +10,6 @@ Pod::Spec.new do |s|
     s.swift_versions = ['5.0']
     s.ios.deployment_target = '16.0'
     s.source_files  = 'Sources/**/*.{swift}'
+    s.frameworks = ['Foundation', 'SwiftUI', 'OSLog', 'os', 'Combine']
     s.requires_arc  = true
 end
