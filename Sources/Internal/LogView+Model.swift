@@ -6,7 +6,6 @@ import Foundation
 import SwiftUI
 import OSLog
 import Combine
-import os
 
 private let logger = Logger(subsystem: "com.logview", category: "logger")
 
