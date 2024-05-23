@@ -5,7 +5,7 @@
 import Foundation
 import SwiftUI
 import OSLog
-import os
+
 
 @available(iOS 15.0, *)
 struct LogViewItem: View {
