@@ -5,7 +5,6 @@
 import Foundation
 import SwiftUI
 import OSLog
-import os
 
 private extension View {
   func sheetDefaultSettings() -> some View {
