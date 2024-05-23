@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
     s.source       = { :git => 'https://github.com/alexejn/LogView.git', :tag => "#{s.version}" }
     
     s.ios.deployment_target = '15.0'
-    s.source_files  = 'Sources/**/*.{swift,h,m}'
-    s.frameworks    = 'Foundation', 'SwiftUI', 'OSLog', 'Combine'
+    s.source_files  = 'Sources/**/*.{swift}'
+    s.frameworks    = 'Foundation', 'SwiftUI', 'OSLog', 'os', 'Combine'
     s.requires_arc  = true
 end
