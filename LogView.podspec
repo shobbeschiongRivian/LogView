@@ -7,7 +7,6 @@ Pod::Spec.new do |s|
     s.author       = { 'Alexej' => '' }  # replace with the actual author's email if available
     s.source       = { :git => 'https://github.com/alexejn/LogView.git', :tag => "#{s.version}" }
     
-    s.platform      = :ios, '5.0'
     s.ios.deployment_target = '15.0'
     s.source_files  = 'Sources/**/*.{swift,h,m}'
     s.frameworks    = 'Foundation', 'SwiftUI', 'OSLog', 'Combine'
