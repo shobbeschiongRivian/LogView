@@ -20,7 +20,7 @@ extension LogView {
 
 public extension NSPredicate {
   /// Predicate for fetching from OSLogStore, allow to condition subsystem, and set if empty subsystem should be filtered.
-  static func subystemIn(_ values: [String], orNil: Bool = true) -> NSPredicate {
+  static func subsystemIn(_ values: [String], orNil: Bool = true) -> NSPredicate {
     NSPredicate(format: "\(orNil ? "subsystem == nil OR" : "") subsystem in $LIST")
       .withSubstitutionVariables(["LIST" : values])
   }
